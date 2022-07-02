@@ -1,14 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from "./components/home";
+import BookList from "./components/BookList";
+import Portfolios from "./components/Portofolio";
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <h1>Welcome Reasoft</h1>
-
-      </header>
+        <Portfolios/>
     </div>
+
   );
 }
 export default App;

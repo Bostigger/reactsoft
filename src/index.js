@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navigationbar from "./components/layouts/NavBar";
+import BookList from "./components/BookList";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+      <Navigationbar/>
     <App />
+
   </React.StrictMode>
 );
 
